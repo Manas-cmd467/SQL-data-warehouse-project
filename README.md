@@ -33,6 +33,27 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
+## 📁 Repository Structure
+```
+.
+├── datasets/                     ← Raw and staging data files
+│   ├── source/                   ← Source CSVs / inputs
+│   └── staging/                  ← Cleaned or transformed data
+├── scripts/                      ← Core SQL scripts
+│   ├── etl/                      ← Extract, Transform, Load scripts
+│   ├── data_modeling/            ← Schema & table creation (dim/fact)
+│   └── analytics/                ← Reporting & insights queries
+├── docs/                         ← Documentation & visuals
+│   ├── architecture.md
+│   ├── data_dictionary.md
+│   └── er_diagram.png
+├── tests/                        ← Quality checks & test SQLs
+│   ├── unit_tests.sql
+│   └── data_quality_checks.sql
+└── README.md
+```
+
+
 
 
 
